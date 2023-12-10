@@ -81,6 +81,7 @@ body {
   .text-red {
     color: red;
     border: none;
+    cursor: pointer;
   }
   .list-items{
     margin: 20px;;
