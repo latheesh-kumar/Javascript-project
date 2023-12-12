@@ -54,3 +54,23 @@ function hideSpinner(){
 }
 fetchData()
 generateBtn.addEventListener('click',fetchData)
+// create post using fetch
+
+function postData(title,body){
+    fetch('https://jsonplaceholder.typicode.com/posts',{
+        method:'POST',
+        body:JSON.stringify({
+            title,
+            body
+        }),
+        headers:{
+            'content-type':'application/json',
+            token:"latheesh"
+        }
+    })
+    // .then((res)=>res.json())
+    // .then((data)=>console.log(data))
+}
+postData('kumar','this is testing post api- 2')
+
+
