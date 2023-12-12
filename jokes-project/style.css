@@ -1,0 +1,15 @@
+body{
+    background-color: rgb(130, 9, 243);
+}
+.content{
+    position: absolute;
+    top: 25%;
+    left: 25%;
+    width: 50%;
+    height: 50%;
+    /* margin: 20px auto; */
+    box-shadow: 2px 2px 2px 2px #dcdcdc;
+}
+button{
+    
+}
