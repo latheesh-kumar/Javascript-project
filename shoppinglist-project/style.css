@@ -78,6 +78,9 @@ body {
   .btn-clear:hover {
     background-color: #f1f1f1;
   }
+  .edit-mode{
+    color:#bcbcc1
+  }
   .text-red {
     color: red;
     border: none;
